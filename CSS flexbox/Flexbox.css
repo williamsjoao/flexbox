@@ -1,0 +1,142 @@
+*{
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-color: brown;
+}
+.principal{
+  background:url(../imagenes/360.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header{
+  background-color: #086972;
+}
+.nav{
+  background-color: #17b978;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.logo{
+  background-color: #ffffff;
+  flex: auto;
+  
+}
+.menu{
+  background-color: #ffffff;
+  flex: 50%;
+  
+  
+}
+.search{
+  background-color: #ffffff;
+  flex: auto;
+  
+}
+
+.brand{
+  background-color: #17b978;
+}
+  
+  .section{
+    background-color: #071a52;
+    display: flex;
+    flex: 2 1 auto;
+    }
+    .services{
+      background-color: #086972;
+      display: flex;
+      flex-flow: row wrap;
+      flex: 4 1 auto;
+      
+      }
+        .consulting{
+        background-color: #17b978;
+        flex: 1 1 auto;
+           }
+        .implementation{
+        background-color: #17b978;
+        flex: 1 1 auto;
+             }
+        .support{
+        background-color: #17b978;
+        flex: 1 1 auto;
+             }
+        .features{
+        background-color: #17b978;
+        flex: 1 1 auto;
+              }
+        
+    .aside{
+        background-color: #aa3a3a;
+        flex: 1 1 auto;
+          }
+          
+        .ingeniero{
+              background-color: #17b978;
+                }
+  .footer{
+    background-color: #071a52;
+    display: flex;
+    flex-flow: row;
+    justify-content: center ;
+    
+    }
+    .end{
+      background-color: #086972;
+      width: 50%;
+      }
+@media all and (max-width: 800px){
+  .section{
+      flex-direction: column;
+        }             
+}
+
+@media all and (max-width: 600px){
+
+  .menu{
+    flex-direction: column;
+        height: auto ;
+      }
+
+  .services{
+    display: flex;
+    flex-direction: column;
+
+    }
+
+  .aside{
+    display: flex;
+    flex-flow: row wrap;
+          
+    }
+    .ingeniero{
+      flex: 1 1 40%;
+    }
+  }
+  @media all and (max-width: 440px){
+    .ingeniero{
+      flex: 1 1 100%;
+    }
+    .desaparece{
+      display: none;
+    }
+    .principal{
+      display: inline-block;
+    }
+    
+  }
+
+    
+  
+
+      
+           
+          
+        
+        
+      
