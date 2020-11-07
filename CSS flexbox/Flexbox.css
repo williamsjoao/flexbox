@@ -14,32 +14,66 @@ body{
   background-size: cover;
 }
 header{
-  background-color: #086972;
+  
 }
 .nav{
-  background-color: #17b978;
+  background-color: rgba(0, 0, 0, .1);
   display: flex;
   flex-flow: row nowrap;
+  height: 100px;
+  align-items: center}
 }
 .logo{
-  background-color: #ffffff;
-  flex: auto;
   
+  flex: auto;
+      
+}
+
+.logo a{
+  font-size: 60px;
+   
 }
 .menu{
-  background-color: #ffffff;
+  
   flex: 50%;
+  display: flex;
+  flex-flow: row nowrap;
   
   
 }
+
+.menu a{
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 1px;
+
+}
+
+.expand{
+  display: none;
+
+}
+.anclas a{
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+
+}
+
 .search{
-  background-color: #ffffff;
+  
   flex: auto;
   
 }
 
 .brand{
-  background-color: #17b978;
+  background-color: rgba(0, 0, 0, .1);
+}
+h1{
+  text-align: center;
+  
 }
   
   .section{
